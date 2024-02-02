@@ -1,0 +1,13 @@
+.{
+    .name = "package-issue",
+    .version = "0.0.0",
+    .dependencies = .{
+        .foo = .{
+            .path = "pkgs/foo",
+        },
+        .bar = .{
+            .path = "pkgs/bar",
+        },
+    },
+    .paths = .{""},
+}
